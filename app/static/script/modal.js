@@ -92,7 +92,9 @@ $(document).ready(function () {
         if (state.text() === "Todo") {
             new_state = "In Progress"
         }
-       
+        if (state.text() === "In Progress") {
+            new_state = "completed"
+        }
         console.log(new_state)
     
         $.ajax({
