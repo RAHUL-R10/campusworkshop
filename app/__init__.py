@@ -13,4 +13,3 @@ postgres = psycopg2.connect(
 # This also means that we need to place this import here
 # pylint: disable=cyclic-import, wrong-import-position
 from app import routes
-todo_gxj9
